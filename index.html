@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="output.css">
+    <script src="main.js" defer></script>
+    <title>Image Search Engine</title>
+</head>
+<body class="bg-pink-400 text-white">
+    <h1 class="text-center mt-24 mx-auto mb-12 text-4xl font-bold">Image Search Engine</h1>
+    <form id="search-form" class="w-11/12 m-auto h-20 flex items-center max-w-[600px]">
+        <input type="text" id="search-box" class="flex-1 outline-none text-black border-2 border-gray-200 rounded-md p-2" placeholder="Write Anything">
+        <button class="search-btn bg-indigo-300 p-[10px] rounded-md ml-3">Search</button>
+    </form>
+        <div id="search-result" class="mt-24 mx-auto mb-12 grid"></div>
+    <div class="more-btn flex items-center justify-center">
+        <button class="show-more bg-indigo-300 p-[10px] rounded-md mt-3 mb-24 mx-auto text-center hidden">Show more</button>
+    </div>
+</body>
+</html>
